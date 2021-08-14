@@ -5415,6 +5415,8 @@ components:
       - queued
       - none
       - scheduled
+      - deferred
+      - sensing
       - removed
       type: string
     DagState:

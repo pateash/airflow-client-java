@@ -50,6 +50,10 @@ public enum TaskState {
   
   SCHEDULED("scheduled"),
   
+  DEFERRED("deferred"),
+  
+  SENSING("sensing"),
+  
   REMOVED("removed");
 
   private String value;
