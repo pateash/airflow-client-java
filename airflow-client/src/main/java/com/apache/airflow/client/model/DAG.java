@@ -130,12 +130,6 @@ public class DAG {
   }
 
 
-  public DAG isActive(Boolean isActive) {
-    
-    this.isActive = isActive;
-    return this;
-  }
-
    /**
    * Whether the DAG is currently seen by the scheduler(s).
    * @return isActive
@@ -148,9 +142,6 @@ public class DAG {
   }
 
 
-  public void setIsActive(Boolean isActive) {
-    this.isActive = isActive;
-  }
 
 
    /**

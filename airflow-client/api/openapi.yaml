@@ -3957,6 +3957,7 @@ components:
         is_active:
           description: Whether the DAG is currently seen by the scheduler(s).
           nullable: true
+          readOnly: true
           type: boolean
         is_subdag:
           description: Whether the DAG is SubDAG.
@@ -5438,6 +5439,7 @@ components:
       - none_failed
       - none_skipped
       - none_failed_or_skipped
+      - none_failed_min_one_success
       - dummy
       type: string
     WeightRule:
