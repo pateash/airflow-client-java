@@ -11,15 +11,12 @@
  */
 
 
-package com.apache.airflow.client.tests.api;
+package org.apache.airflow.client.tests.api;
 
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.api.ConnectionApi;
-import com.apache.airflow.client.auth.HttpBasicAuth;
-import com.apache.airflow.client.model.Connection;
-import org.junit.Before;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.api.ConnectionApi;
+import org.apache.airflow.client.model.Connection;
+import org.apache.airflow.client.tests.common.BasicAuthentication;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -27,27 +24,18 @@ import static org.junit.Assert.assertEquals;
 /**
  * API tests for ConnectionApi
  */
-public class ConnectionApiTest {
+public class ConnectionApiTest extends BasicAuthentication {
 
     private final ConnectionApi api = new ConnectionApi();
 
     private Connection test_connection(String connId) throws ApiException {
-        Connection c=new Connection();
-        c.setConnectionId(connId);
-        c.setConnType("http");
-        c.setPassword("password");
-        c.setHost("http://test.com/api");
-        c.setPort(80);
-        return c;
-    }
-
-    @Before
-    public void setUp() throws Exception {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("http://localhost:8080/api/v1");
-        HttpBasicAuth Basic = (HttpBasicAuth) defaultClient.getAuthentication("Basic");
-        Basic.setUsername("admin");
-        Basic.setPassword("admin");
+        Connection o=new Connection();
+        o.setConnectionId(connId);
+        o.setConnType("http");
+        o.setPassword("password");
+        o.setHost("http://test.com/api");
+        o.setPort(80);
+        return o;
     }
 
     /**
@@ -134,23 +122,5 @@ public class ConnectionApiTest {
         api.deleteConnection(connectionId);
 
     }
-
-//    /**
-//     * Test a connection
-//     *
-//     *
-//     *
-//     * @throws ApiException
-//     *          if the Api call fails
-//     */
-//    @Test
-//    public void testConnectionTest() throws ApiException {
-//        String connectionId = "test_conns_test";
-//        Connection c = api.postConnection(test_connection(connectionId));
-//        ConnectionTest response = api.testConnection(c);
-//        System.out.println(response);
-//        api.deleteConnection(connectionId);
-
-//    }
 
 }
