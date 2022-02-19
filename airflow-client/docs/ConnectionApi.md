@@ -21,12 +21,12 @@ Delete a connection
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.ConnectionApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.ConnectionApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -91,12 +91,12 @@ Get a connection
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.ConnectionApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.ConnectionApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -161,12 +161,12 @@ List connections
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.ConnectionApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.ConnectionApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -234,12 +234,12 @@ Update a connection
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.ConnectionApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.ConnectionApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -309,12 +309,12 @@ Create a connection
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.ConnectionApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.ConnectionApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -381,12 +381,12 @@ Test a connection.  *New in version 2.2.0*
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.ConnectionApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.ConnectionApi;
 
 public class Example {
   public static void main(String[] args) {

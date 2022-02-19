@@ -18,12 +18,12 @@ Get a list of loaded plugins.  *New in version 2.1.0*
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.PluginApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.PluginApi;
 
 public class Example {
   public static void main(String[] args) {

@@ -21,12 +21,12 @@ Delete a DAG run
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagRunApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagRunApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -93,12 +93,12 @@ Get a DAG run
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagRunApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagRunApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -167,12 +167,12 @@ This endpoint allows specifying &#x60;~&#x60; as the dag_id to retrieve DAG runs
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagRunApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagRunApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -257,12 +257,12 @@ This endpoint is a POST to allow filtering across a large number of DAG IDs, whe
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagRunApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagRunApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -327,12 +327,12 @@ Trigger a new DAG run
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagRunApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagRunApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -403,12 +403,12 @@ Modify a DAG run.  *New in version 2.2.0*
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagRunApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagRunApi;
 
 public class Example {
   public static void main(String[] args) {

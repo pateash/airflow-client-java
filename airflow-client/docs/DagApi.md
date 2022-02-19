@@ -27,12 +27,12 @@ Deletes all metadata related to the DAG, including finished DAG Runs and Tasks. 
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -100,12 +100,12 @@ Presents only information available in database (DAGModel). If you need detailed
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -172,12 +172,12 @@ The response contains many DAG attributes, so the response can be large. If poss
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -244,12 +244,12 @@ Get a source code using file token.
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -315,12 +315,12 @@ List DAGs
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -393,12 +393,12 @@ Get simplified representation of a task
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -465,12 +465,12 @@ Get tasks for DAG
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -537,12 +537,12 @@ Update a DAG
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -613,12 +613,12 @@ Clears a set of task instances associated with the DAG for a specified date rang
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -687,12 +687,12 @@ Updates the state for multiple task instances simultaneously.
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.DagApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.DagApi;
 
 public class Example {
   public static void main(String[] args) {

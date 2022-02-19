@@ -20,12 +20,12 @@ Delete a variable
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.VariableApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.VariableApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -92,12 +92,12 @@ Get a variable by key.
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.VariableApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.VariableApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -164,12 +164,12 @@ The collection does not contain data. To get data, you must get a single entity.
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.VariableApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.VariableApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -239,12 +239,12 @@ Update a variable by key.
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.VariableApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.VariableApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -314,12 +314,12 @@ Create a variable
 ### Example
 ```java
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.VariableApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.VariableApi;
 
 public class Example {
   public static void main(String[] args) {

@@ -162,9 +162,9 @@ To be able to meet the requirements of many organizations, Airflow supports many
 and it is even possible to add your own method.
 
 If you want to check which auth backend is currently set, you can use
-`airflow config get-value api auth_backend` command as in the example below.
+`airflow config get-value api auth_backends` command as in the example below.
 ```bash
-$ airflow config get-value api auth_backend
+$ airflow config get-value api auth_backends
 airflow.api.auth.backend.basic_auth
 ```
 The default is to deny all requests.
@@ -254,7 +254,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>com.apache.airflow</groupId>
+  <groupId>org.apache.airflow</groupId>
   <artifactId>airflow-client</artifactId>
   <version>2.1.0</version>
   <scope>compile</scope>
@@ -266,7 +266,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.apache.airflow:airflow-client:2.1.0"
+compile "org.apache.airflow:airflow-client:2.1.0"
 ```
 
 ### Others
@@ -289,12 +289,12 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```java
 
 // Import classes:
-import com.apache.airflow.client.ApiClient;
-import com.apache.airflow.client.ApiException;
-import com.apache.airflow.client.Configuration;
-import com.apache.airflow.client.auth.*;
-import com.apache.airflow.client.models.*;
-import com.apache.airflow.client.api.ConfigApi;
+import org.apache.airflow.client.ApiClient;
+import org.apache.airflow.client.ApiException;
+import org.apache.airflow.client.Configuration;
+import org.apache.airflow.client.auth.*;
+import org.apache.airflow.client.models.*;
+import org.apache.airflow.client.api.ConfigApi;
 
 public class Example {
   public static void main(String[] args) {

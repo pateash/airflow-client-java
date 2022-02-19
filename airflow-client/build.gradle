@@ -2,7 +2,7 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin: 'java'
 
-group = 'com.apache.airflow'
+group = 'org.apache.airflow'
 version = '2.1.0'
 
 buildscript {

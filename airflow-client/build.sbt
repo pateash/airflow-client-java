@@ -1,6 +1,6 @@
 lazy val root = (project in file(".")).
   settings(
-    organization := "com.apache.airflow",
+    organization := "org.apache.airflow",
     name := "airflow-client",
     version := "2.1.0",
     scalaVersion := "2.11.4",
